@@ -127,7 +127,7 @@ class RoPE(nn.Module):
             dtype=torch.float,
         ) / embedding_dimension
 
-        theta = 1. / torch.pow(base, exponent)
+        theta = torch.pow(base, -exponent)
 
         self.theta = theta
 
