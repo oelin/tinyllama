@@ -29,6 +29,5 @@ logits = model(tokens, mask=None)
 
 ## TODO
 
-- [ ] Implement helper functions for GQA causal masks.
 - [ ] Implement caching (RoPE, KV).
 - [ ] Switch to Flash Attention 2 for GQA.
