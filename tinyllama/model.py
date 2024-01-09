@@ -454,6 +454,9 @@ class TransformerBlock(nn.Module):
         return x
 
 
+# The default configuration is a small 8M parameter model with roughly
+# the same proportions as TinyLlama-1B.
+
 @dataclass(frozen=True)
 class TinyLlamaConfiguration:
     embedding_dimension: int = 256
@@ -463,8 +466,6 @@ class TinyLlamaConfiguration:
     vocabulary_size: int = 1024
     context_length: int = 1024
 
-
-# TODO: implement RoPE and KV caches.
 
 class TinyLlama(nn.Module):
     """TinyLlama.
