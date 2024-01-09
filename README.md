@@ -1,5 +1,5 @@
 <div align=center>
-  <img src='./tinyllama.svg' width=400px>
+  <img src='./images/tinyllama.svg' width=400px>
 </div>
 
 # TinyLlama
