@@ -29,5 +29,5 @@ logits = model(tokens, mask=None)
 
 ## TODO
 
-- [ ] Implement helper functions for GQA causal masks
+- [ ] Implement helper functions for GQA causal masks.
 - [ ] Implement RoPE and KV caches.
